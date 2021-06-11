@@ -130,6 +130,5 @@ dmypy.json
 .idea/*
 
 # ONLY MEE
-
 main.db
 .env
