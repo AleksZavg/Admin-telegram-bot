@@ -61,3 +61,4 @@ async def all_info(data):
         sql = db.cursor()
         sql.execute('SELECT * FROM white_list WHERE telegram_id=?', (data["telegram_id"],))
         return sql.fetchone()
+

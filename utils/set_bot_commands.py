@@ -6,6 +6,7 @@ async def set_default_commands(dp):
         [
             types.BotCommand("start", "Запустить бота"),
             types.BotCommand("admin", "Панель управления администратора"),
+            types.BotCommand("private", "Доступ к приватным возможностям"),
             types.BotCommand("info", "Информация о боте (от автора-разработчика)"),
             types.BotCommand("help", "Вывести справку"),
             types.BotCommand("cancel", "Остановить текущее действие")
